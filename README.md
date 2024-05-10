@@ -46,6 +46,10 @@ Outcome:
 
 
 
+https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/a03e51f9-d1a5-4eb4-9105-89a34d96d8cd
+
+
+
 ## Project 2 - 
 
 ## Overall what you learned
