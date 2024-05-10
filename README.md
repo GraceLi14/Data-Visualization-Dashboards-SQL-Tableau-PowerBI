@@ -7,16 +7,44 @@ Therefore, I decided to expand my expertise into the technical realm of data vis
 
 ### Power BI Visualization
 
-## Netflix Shows - Power BI Visualization *Catchy Title about main point of dashboard*
-- Motivation: Given my familiarity with Microsoft tools, I recognized that learning Power BI would be a natural and strategic first step in mastering data visualization technologies.
+## Netflix Unveiled: A Power BI Exploration of Shows and Global Trends
+- Motivation:
+
+Given my familiarity with Microsoft tools, I recognized that learning Power BI would be a natural and strategic first step in mastering data visualization technologies.
 
 - Steps: 
-I used a Netflix dataset from [kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows?phase=FinishSSORegistration&returnUrl=%2Fdatasets%2Fshivamb%2Fnetflix-shows%2Fversions%2F5%3Fresource%3Ddownload&SSORegistrationToken=CfDJ8CYusWan8yNKiDQcrMXOtQHX_djfNG_zLS6iF0VqGUQjSl8SVQHwEprCmuSuv9vzc_5pV93wrT8OK3JQo3tO5GOoL6JVNb681_4zhs526PsO9fbg90Ilst4ACttQXAbflL6vSph0m_Fac8xoeMz0urCmxVSCz9IMZ1Ke-yaF57TAnKCCvBDADrVDhDy-ujv2i7_9DFhwCTF-OonQUPX2es9XcD56A3rxpskjBjxIBuSfHiv7GNuiBPlavPty6Sjk-kaK_Xp3vIHlOG2LxFOHiQ-unPcEU0ThKqxv1IrnWSqlNZS8DCqFJhMXoPoGEE99T8-zFCxRaFripySkpr2N1P9eNw&DisplayName=Grace+Li) because it was interesting and easy to understand.
-Next, I refined the dataset on Excel by segregating names and countries into distinct columns, and by eliminating extraneous spaces and commas.
-I wanted to use SQL to set up different tables I could upload onto Power BI consolidate the different names and country columns 
-Ran into issue with uploading excel to sql workbench and figured out need to replace all blank cells with 'NULL'.
+
+I downloaded a Netflix dataset from [kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows?phase=FinishSSORegistration&returnUrl=%2Fdatasets%2Fshivamb%2Fnetflix-shows%2Fversions%2F5%3Fresource%3Ddownload&SSORegistrationToken=CfDJ8CYusWan8yNKiDQcrMXOtQHX_djfNG_zLS6iF0VqGUQjSl8SVQHwEprCmuSuv9vzc_5pV93wrT8OK3JQo3tO5GOoL6JVNb681_4zhs526PsO9fbg90Ilst4ACttQXAbflL6vSph0m_Fac8xoeMz0urCmxVSCz9IMZ1Ke-yaF57TAnKCCvBDADrVDhDy-ujv2i7_9DFhwCTF-OonQUPX2es9XcD56A3rxpskjBjxIBuSfHiv7GNuiBPlavPty6Sjk-kaK_Xp3vIHlOG2LxFOHiQ-unPcEU0ThKqxv1IrnWSqlNZS8DCqFJhMXoPoGEE99T8-zFCxRaFripySkpr2N1P9eNw&DisplayName=Grace+Li) because it was interesting and easy to understand.
+
+I refined the dataset on Excel by segregating names and countries into distinct columns, and by eliminating extraneous spaces and commas. I then split out the dataset into different tables: cast, countries, description, directors, etc. with show ID being the primary key that relates each table to each other.
+
+Next, I imported this data onto MySQLWorkbench. When importing data from Excel, I ran into issue on MySQLWorkbench and figured out need to replace all blank cells with 'NULL'.
+
+I created new relational tables from the original tables by transforming the different columns of names, countries, etc. for each show into individual rows, creating a clearer and more detailed presentation of directors, cast, countries available, etc. per show. I did this by using UNION as shown in the examples below.
+
+Example using the cast table:
+
+<img width="580" alt="Screen Shot 2024-05-10 at 2 42 55 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/c484b89f-1783-4448-aa3b-73fb96243575">
+
+Example using countries table: 
+
+<img width="556" alt="Screen Shot 2024-05-10 at 2 51 05 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/d2af2e98-5178-41e5-9e84-00e22b33092f">
+
+I then imported these new tables onto Power BI and updated the relationship between the tables so that the Netflix Data Titles was the main table with all other tables related to it by show_id as shown below.
+
+<img width="658" alt="Screen Shot 2024-05-10 at 2 54 56 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/73268e70-ee78-476b-9265-011046f5743f">
+
+The final piece was telling a story of this data through visualization. I wanted to offer two views: an overview of Netflix show trends and a deep dive into specs by show. For the visual effects, I went with black and red to mimic the Netflix brand colors. 
+
+For the overview tab, I thought the most relevant metrics to present to an audience who cares about Netflix trends would be shows added by date, shows by rating, top 10 genres and countries available. These metrics will provide the viewer a general insight of Netflix offerings and overall landscape.
+
+For the single title tab, I wanted to present viewers a view of specific shows of interest. Using what topics I would usually search up about a show I was interested in, I decided to display a dropdown title search section and upon clicking it, the viewer can then see when the show was released, the rating, a brief description of the plot, genre, director(s), cast members and countries available.
+
+Learning the PowerBI tool to present what I wanted required a lot video watching and Google searches on topics like how to create different charts, select specific colors and other formatting issues. As suspected though, PowerBI was pretty intuitive for me given I've already worked with other Microsoft tools. For example, I had a general idea of where to click to center tables, filter certain data out and add borders to charts.
 
 Outcome:
+
+
 
 ## Project 2 - 
 
