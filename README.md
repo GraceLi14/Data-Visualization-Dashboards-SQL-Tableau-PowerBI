@@ -79,4 +79,8 @@ Then, I similarly transformed the analyzed data into a dashboard on PowerBI.
 
 
 
+https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/ff81d08b-cb8c-4a82-9820-fbf713f3aa19
+
+
+
 ## Overall what you learned
