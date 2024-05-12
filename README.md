@@ -16,7 +16,7 @@ Given my familiarity with Microsoft tools, I recognized that learning Power BI w
 
 I downloaded a Netflix dataset from [kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows?phase=FinishSSORegistration&returnUrl=%2Fdatasets%2Fshivamb%2Fnetflix-shows%2Fversions%2F5%3Fresource%3Ddownload&SSORegistrationToken=CfDJ8CYusWan8yNKiDQcrMXOtQHX_djfNG_zLS6iF0VqGUQjSl8SVQHwEprCmuSuv9vzc_5pV93wrT8OK3JQo3tO5GOoL6JVNb681_4zhs526PsO9fbg90Ilst4ACttQXAbflL6vSph0m_Fac8xoeMz0urCmxVSCz9IMZ1Ke-yaF57TAnKCCvBDADrVDhDy-ujv2i7_9DFhwCTF-OonQUPX2es9XcD56A3rxpskjBjxIBuSfHiv7GNuiBPlavPty6Sjk-kaK_Xp3vIHlOG2LxFOHiQ-unPcEU0ThKqxv1IrnWSqlNZS8DCqFJhMXoPoGEE99T8-zFCxRaFripySkpr2N1P9eNw&DisplayName=Grace+Li) because it was interesting and easy to understand.
 
-I refined the dataset on Excel by segregating names and countries into distinct columns, and by eliminating extraneous spaces and commas. I then split out the dataset into different tables: cast, countries, description, directors, etc. with show ID being the primary key that relates each table to each other. Refer to Netflix Project
+I refined the Excel dataset by organizing names and countries into separate columns and removing extraneous spaces and commas. Subsequently, I divided the data into distinct tables—such as cast, countries, description, and directors—linked by the show ID as the primary key. Refer to Netflix Project
 /DataImport_MySQLWorkbench folder to see resulting Excel sheets.
 
 Next, I imported this data onto MySQLWorkbench. When importing data from Excel, I ran into issue on MySQLWorkbench and figured out need to replace all blank cells with 'NULL'.
@@ -73,6 +73,7 @@ Excel Analysis:
 <img width="1195" alt="Screen Shot 2024-05-12 at 1 27 08 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/64eb9fdb-01ba-4cc4-9af6-df78e936aadc">
 <img width="1070" alt="Screen Shot 2024-05-12 at 1 27 23 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/07d703f5-1057-4150-be95-a52411cb91ed">
 
+Then, I similarly transformed the analyzed data into a dashboard on PowerBI.
 
 ### Outcome:
 
