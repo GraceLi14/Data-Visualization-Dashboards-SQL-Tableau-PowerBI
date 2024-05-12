@@ -1,0 +1,24 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 with sale_test as\
+(select o.orderNumber, o.customerNumber, productcode, quantityOrdered, priceEach, priceEach*quantityOrdered as sales_value,\
+creditlimit\
+from orders o\
+join orderdetails d on o.orderNumber=d.orderNumber\
+join customers c on c.customerNumber=o.customerNumber\
+)\
+\
+select orderNumber, customerNumber, \
+case when creditlimit < 75000 then 'a: Less than $75k'\
+	when creditlimit >= 75000 and creditlimit < 100000 then 'b: $75k-$100k'\
+	when creditlimit >= 100000 and creditlimit < 150000 then 'c: $100k-$150k'\
+	when creditlimit > 150000 then 'd: Over $150k'\
+	else 'other' end as creditlimit_group, \
+sum(sales_value) as sales_value\
+from sale_test\
+group by 1,2,3}
