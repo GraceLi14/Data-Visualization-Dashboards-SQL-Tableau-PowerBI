@@ -75,8 +75,6 @@
 
 ### SQL Pull:
 
-### Excel Analysis:
+<img width="1225" alt="Screen Shot 2024-05-12 at 5 49 53 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/7f5388e2-f36e-4c5a-badb-4be6357211ba">
 
-## Question 8:
-### SQL Pull:
-### Excel Analysis:
+<img width="1217" alt="Screen Shot 2024-05-12 at 5 50 06 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/69027f80-0f4c-4d72-a721-f3b025af2dcb">
