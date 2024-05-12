@@ -1,1 +1,57 @@
-## Data Analysis - Business Questions Tackled
+# Data Analysis - Business Questions Tackled
+
+## Question 1:
+
+<img width="737" alt="Screen Shot 2024-05-12 at 1 17 50 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/98914603-29ec-4972-a443-feb1570e754c">
+
+### SQL Pull:
+
+<img width="841" alt="Screen Shot 2024-05-12 at 1 18 58 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/75c112e2-c19d-4267-92ae-873918ff7143">
+
+### Excel Analysis:
+
+<img width="1195" alt="Screen Shot 2024-05-12 at 1 27 08 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/64eb9fdb-01ba-4cc4-9af6-df78e936aadc">
+<img width="1070" alt="Screen Shot 2024-05-12 at 1 27 23 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/07d703f5-1057-4150-be95-a52411cb91ed">
+
+## Question 2:
+
+<img width="742" alt="Screen Shot 2024-05-12 at 4 56 41 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/915da579-482d-452a-bd58-91a0dbbb40df">
+
+### SQL Pull:
+
+<img width="843" alt="Screen Shot 2024-05-12 at 4 58 18 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/96abcf21-63ff-499e-935f-7a5f89c2e6a7">
+
+### Excel Analysis:
+
+<img width="548" alt="Screen Shot 2024-05-12 at 4 58 58 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/96467556-dcdb-423d-a9ad-9a086334f185">
+
+## Question 3:
+
+<img width="740" alt="Screen Shot 2024-05-12 at 5 02 25 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/42afb7c5-4141-4ac7-b742-0a14d42fef90">
+
+### SQL Pull:
+
+<img width="843" alt="Screen Shot 2024-05-12 at 5 03 27 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/cbaab105-140f-4b8c-b78b-9996ea2d183c">
+
+### Excel Analysis:
+
+<img width="980" alt="Screen Shot 2024-05-12 at 5 04 02 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/074834f4-2bbf-4eb0-8782-17836bfd3294">
+
+## Question 4:
+
+<img width="722" alt="Screen Shot 2024-05-12 at 5 06 59 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/3a384564-9338-4d22-aaf0-08f004e29752">
+
+### SQL Pull:
+
+<img width="988" alt="Screen Shot 2024-05-12 at 5 08 16 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/29bedbfb-50b8-4148-8f61-c1e8cb270c03">
+
+### Excel Analysis:
+
+<img width="989" alt="Screen Shot 2024-05-12 at 5 08 57 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/21f6bfdb-a00c-4d70-87c3-964b5546abd2">
+
+## Question 5:
+### SQL Pull:
+### Excel Analysis:
+## Question 6:
+### SQL Pull:
+### Excel Analysis:
