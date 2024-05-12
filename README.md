@@ -50,10 +50,25 @@ https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-P
 
 
 
-# Project 2 - 
+# Project 2 - Classic Models Data - Mastering Data Integration Leveraging SQL, Excel, and Power BI for Enhanced Analysis and Presentation
 
 ### Motivation:
+
+After gaining a foundational understanding of integrating Excel data into Power BI, I utilized Udemy to explore the types of data analysis questions that data scientists typically address for leadership and business stakeholders, and how they utilize SQL, Power BI, and Excel to resolve these queries.
+
 ### Steps:
+
+The Udemy course offered access to a database featuring Classic Models with relational tables. It included a series of analytical questions, which I addressed by initially extracting the necessary data using MySQL Workbench, followed by conducting chart analyses in Excel. For a detailed overview of all the questions tackled and the corresponding Excel analyses, please follow this link.
+
+#### Example:
+
+Question:
+
+SQL Pull:
+
+Excel Analysis:
+
+
 ### Outcome:
 
 
