@@ -62,5 +62,21 @@
 <img width="1353" alt="Screen Shot 2024-05-12 at 5 12 58 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/bc64178a-e517-4e06-974d-12a540cdf211">
 
 ## Question 6:
+
+<img width="741" alt="Screen Shot 2024-05-12 at 5 19 50 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/e4a3fc58-8682-408c-9c92-c3a854064631">
+
+### SQL Pull:
+
+<img width="988" alt="Screen Shot 2024-05-12 at 5 20 56 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/4f2f657d-5f71-4a15-9e49-320f89668775">
+
+## Question 7:
+
+<img width="944" alt="Screen Shot 2024-05-12 at 5 23 06 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/59c80243-16ef-421e-a074-c0baa93f7e80">
+
+### SQL Pull:
+
+### Excel Analysis:
+
+## Question 8:
 ### SQL Pull:
 ### Excel Analysis:
