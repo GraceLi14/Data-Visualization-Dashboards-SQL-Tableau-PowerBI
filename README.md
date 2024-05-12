@@ -16,19 +16,16 @@ Given my familiarity with Microsoft tools, I recognized that learning Power BI w
 
 I downloaded a Netflix dataset from [kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows?phase=FinishSSORegistration&returnUrl=%2Fdatasets%2Fshivamb%2Fnetflix-shows%2Fversions%2F5%3Fresource%3Ddownload&SSORegistrationToken=CfDJ8CYusWan8yNKiDQcrMXOtQHX_djfNG_zLS6iF0VqGUQjSl8SVQHwEprCmuSuv9vzc_5pV93wrT8OK3JQo3tO5GOoL6JVNb681_4zhs526PsO9fbg90Ilst4ACttQXAbflL6vSph0m_Fac8xoeMz0urCmxVSCz9IMZ1Ke-yaF57TAnKCCvBDADrVDhDy-ujv2i7_9DFhwCTF-OonQUPX2es9XcD56A3rxpskjBjxIBuSfHiv7GNuiBPlavPty6Sjk-kaK_Xp3vIHlOG2LxFOHiQ-unPcEU0ThKqxv1IrnWSqlNZS8DCqFJhMXoPoGEE99T8-zFCxRaFripySkpr2N1P9eNw&DisplayName=Grace+Li) because it was interesting and easy to understand.
 
-I refined the dataset on Excel by segregating names and countries into distinct columns, and by eliminating extraneous spaces and commas. I then split out the dataset into different tables: cast, countries, description, directors, etc. with show ID being the primary key that relates each table to each other.
+I refined the dataset on Excel by segregating names and countries into distinct columns, and by eliminating extraneous spaces and commas. I then split out the dataset into different tables: cast, countries, description, directors, etc. with show ID being the primary key that relates each table to each other. Refer to Netflix Project
+/DataImport_MySQLWorkbench folder to see resulting Excel sheets.
 
 Next, I imported this data onto MySQLWorkbench. When importing data from Excel, I ran into issue on MySQLWorkbench and figured out need to replace all blank cells with 'NULL'.
 
-I created new relational tables from the original tables by transforming the different columns of names, countries, etc. for each show into individual rows, creating a clearer and more detailed presentation of directors, cast, countries available, etc. per show. I did this by using UNION as shown in the examples below.
+I created new relational tables from the original tables by transforming the different columns of names, countries, etc. for each show into individual rows, creating a clearer and more detailed presentation of directors, cast, countries available, etc. per show. I did this by using UNION as shown in the examples below. Refer to Netflix Project/Creating Relational Database_SQL Code folder to see all SQL codes used to create these relational tables.
 
 Example using the cast table:
 
 <img width="580" alt="Screen Shot 2024-05-10 at 2 42 55 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/c484b89f-1783-4448-aa3b-73fb96243575">
-
-Example using countries table: 
-
-<img width="556" alt="Screen Shot 2024-05-10 at 2 51 05 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/d2af2e98-5178-41e5-9e84-00e22b33092f">
 
 I then imported these new tables onto Power BI and updated the relationship between the tables so that the Netflix Data Titles was the main table with all other tables related to it by show_id as shown below.
 
