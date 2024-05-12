@@ -55,7 +55,7 @@ After gaining a foundational understanding of integrating Excel data into Power 
 
 ### Steps:
 
-The Udemy course offered access to a database featuring Classic Models with relational tables. It included a series of analytical questions, which I addressed by initially extracting the necessary data using MySQL Workbench, followed by conducting chart analyses in Excel. For a detailed overview of all the questions tackled and the corresponding Excel analyses, please follow this link.
+The Udemy course offered access to a database featuring Classic Models with relational tables. It included a series of analytical questions, which I addressed by initially extracting the necessary data using MySQL Workbench, followed by conducting chart analyses in Excel. For a detailed overview of all the questions tackled and the corresponding Excel analyses, please follow this [link](https://www.google.com/).
 
 #### Example:
 
