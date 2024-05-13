@@ -77,7 +77,9 @@ https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-P
 
 ### Motivation:
 
-The final component of this data visualization journey involves mastering Tableau. I aimed to explore industries related to micromobility, utilizing Tableau to visualize KPIs, trends, and categorizations similar to those critical in my field. By analyzing public data from these sectors, I sought to demonstrate how I could design impactful dashboards for business stakeholders.
+The final component of this data visualization journey involves mastering Tableau. 
+
+I aimed to explore industries related to micromobility, utilizing Tableau to visualize KPIs, trends, and categorizations similar to those critical in my field. By analyzing public data from these sectors, I sought to demonstrate how I could design impactful dashboards for business stakeholders.
 
 ### Steps:
 data.gov and kaggle
@@ -85,6 +87,14 @@ data.gov and kaggle
 ### Outcome:
 [My Tableau Public](https://public.tableau.com/app/profile/grace.li4022/vizzes)
 
+<img width="1356" alt="Screen Shot 2024-05-12 at 9 56 34 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/623903d8-e7c9-44f5-b5e8-9228acf68b1d">
 
+<img width="992" alt="Screen Shot 2024-05-12 at 9 57 34 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/13bdfcb4-0889-482f-82d5-ceae41a6d794">
 
 ## Overall what you learned
+
+As a Strategic Finance Manager integrating Tableau, PowerBI, SQL, and Excel into my data visualization toolkit, I've enhanced my analytical capabilities, enabling me to forecast more accurately and model financial scenarios with greater precision. 
+
+I've also imporved my ability to communicate complex financial data through visualizations which will improve decision-making processes and make strategic insights accessible to stakeholders across the organization. 
+
+Additionally, mastering these tools has given me the ability to increased operational efficiency through automation, reducing manual data handling and freeing up more time for strategic planning and analysis.
