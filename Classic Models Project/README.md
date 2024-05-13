@@ -1,5 +1,9 @@
 # Data Analysis - Business Questions Tackled
 
+For the SQL codes referred to in the screenshots below, refer to [Classic Models Project/SQL Pull Source Code/ folder](https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/tree/main/Classic%20Models%20Project/SQL%20Pull%20Source%20Code).
+
+For the Excel analysis referred to in the screenshots below, refer to [Classic Models Project/Excel Analysis Source/ folder](https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/tree/main/Classic%20Models%20Project/Excel%20Analysis%20Source).
+
 ## Question 1:
 
 <img width="737" alt="Screen Shot 2024-05-12 at 1 17 50 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/98914603-29ec-4972-a443-feb1570e754c">
