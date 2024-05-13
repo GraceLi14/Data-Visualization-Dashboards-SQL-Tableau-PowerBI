@@ -6,7 +6,7 @@ By mastering these skills—using tools like Power BI, Tableau, and SQL—I can 
 This enhances decision-making across our finance team and senior leadership, bridging the gap between raw data management and strategic financial analysis to drive business growth.
 
 
-# Netflix Unveiled: A Power BI Exploration of Shows and Global Trends
+# Project 1 | Netflix Unveiled: A Power BI Exploration of Shows and Global Trends
 
 ### Motivation:
 
@@ -39,7 +39,7 @@ https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-P
 
 
 
-# Classic Models Data - Mastering Data Integration Leveraging SQL, Excel, and Power BI
+# Project 2 | Classic Models Data - Mastering Data Integration Leveraging SQL, Excel, and Power BI
 
 ### Motivation:
 
@@ -73,7 +73,7 @@ Similar to the Netflix project, I then transformed the analyzed data into a dash
 
 https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/ff81d08b-cb8c-4a82-9820-fbf713f3aa19
 
-# Exploring Ecomobility - Navigating Bike and EV Industries with Tableau Dashboards
+# Project 3 | Exploring Ecomobility - Navigating Bike and EV Industries with Tableau Dashboards
 
 ### Motivation:
 
