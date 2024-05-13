@@ -19,9 +19,7 @@ I downloaded a Netflix dataset from [kaggle](https://www.kaggle.com/datasets/shi
 I refined the Excel dataset by organizing names and countries into separate columns and removing extraneous spaces and commas. Subsequently, I divided the data into distinct tables—such as cast, countries, description, and directors—linked by the show ID as the primary key. Refer to Netflix Project
 /DataImport_MySQLWorkbench folder to see resulting Excel sheets.
 
-Next, I imported this data onto MySQLWorkbench. When importing data from Excel, I ran into issue on MySQLWorkbench and figured out need to replace all blank cells with 'NULL'.
-
-I created new relational tables from the original tables by transforming the different columns of names, countries, etc. for each show into individual rows, creating a clearer and more detailed presentation of directors, cast, countries available, etc. per show. I did this by using UNION as shown in the examples below. Refer to Netflix Project/Creating Relational Database_SQL Code folder to see all SQL codes used to create these relational tables.
+Next, I imported this data onto MySQLWorkbench. I created new relational tables from the original tables by using UNION as shown in the examples below. Refer to Netflix Project/Creating Relational Database_SQL Code folder to see all SQL codes used to create these relational tables.
 
 Example using the cast table:
 
@@ -32,12 +30,6 @@ I then imported these new tables onto Power BI and updated the relationship betw
 <img width="658" alt="Screen Shot 2024-05-10 at 2 54 56 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/73268e70-ee78-476b-9265-011046f5743f">
 
 The final piece was telling a story of this data through visualization. I wanted to offer two views: an overview of Netflix show trends and a deep dive into specs by show. For the visual effects, I went with black and red to mimic the Netflix brand colors. 
-
-For the overview tab, I thought the most relevant metrics to present to an audience who cares about Netflix trends would be shows added by date, shows by rating, top 10 genres and countries available. These metrics will provide the viewer a general insight of Netflix offerings and overall landscape.
-
-For the single title tab, I wanted to present viewers a view of specific shows of interest. Using what topics I would usually search up about a show I was interested in, I decided to display a dropdown title search section and upon clicking it, the viewer can then see when the show was released, the rating, a brief description of the plot, genre, director(s), cast members and countries available.
-
-Learning the PowerBI tool to present what I wanted required a lot video watching and Google searches on topics like how to create different charts, select specific colors and other formatting issues. As suspected though, PowerBI was pretty intuitive for me given I've already worked with other Microsoft tools. For example, I had a general idea of where to click to center tables, filter certain data out and add borders to charts.
 
 ### Outcome:
 
@@ -73,7 +65,7 @@ Excel Analysis:
 <img width="1195" alt="Screen Shot 2024-05-12 at 1 27 08 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/64eb9fdb-01ba-4cc4-9af6-df78e936aadc">
 <img width="1070" alt="Screen Shot 2024-05-12 at 1 27 23 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/07d703f5-1057-4150-be95-a52411cb91ed">
 
-Then, I similarly transformed the analyzed data into a dashboard on PowerBI.
+Similarly to the Netflix project, I then transformed the analyzed data into a dashboard on PowerBI.
 
 ### Outcome:
 
