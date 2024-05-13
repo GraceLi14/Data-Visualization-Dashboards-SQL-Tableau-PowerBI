@@ -1,9 +1,9 @@
 ## Initial Motivation
-In my role as a Strategic Finance Manager, I am regularly tasked with analyzing large datasets to extract actionable insights that influence strategic decisions. This responsibility sparked my interest in not just reviewing, but also in understanding the intricacies of how data visualizations and dashboards are constructed.
+As a Strategic Finance Manager, I regularly analyze large datasets to derive actionable insights for strategic decisions. This sparked my interest in how data visualizations and dashboards are constructed, leading me to deepen my understanding in this area. 
 
-I recognized that by deepening my knowledge in this area, I could enhance my ability to not only interpret data dashboards but also to better communicate with data and product management teams. The process of distilling vast amounts of data into concise, actionable visualizations is fascinating to me. It's a skill that adds immense value by enabling clearer communication and more informed decision-making within our finance team and senior leadership.
+By mastering these skills—using tools like Power BI, Tableau, and SQL—I can better interpret data, communicate with data and product management teams, and distill complex data into clear visualizations. 
 
-Therefore, I decided to expand my expertise into the technical realm of data visualization with Power BI, Tableau and SQL. I aim to bridge the gap between raw data management and strategic financial analysis to drive business growth and enhance strategic decision-making.
+This enhances decision-making across our finance team and senior leadership, bridging the gap between raw data management and strategic financial analysis to drive business growth.
 
 
 # Netflix Unveiled: A Power BI Exploration of Shows and Global Trends
@@ -14,9 +14,9 @@ Given my familiarity with Microsoft tools, I recognized that learning Power BI w
 
 ### Steps: 
 
-I downloaded a Netflix dataset from [kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows?phase=FinishSSORegistration&returnUrl=%2Fdatasets%2Fshivamb%2Fnetflix-shows%2Fversions%2F5%3Fresource%3Ddownload&SSORegistrationToken=CfDJ8CYusWan8yNKiDQcrMXOtQHX_djfNG_zLS6iF0VqGUQjSl8SVQHwEprCmuSuv9vzc_5pV93wrT8OK3JQo3tO5GOoL6JVNb681_4zhs526PsO9fbg90Ilst4ACttQXAbflL6vSph0m_Fac8xoeMz0urCmxVSCz9IMZ1Ke-yaF57TAnKCCvBDADrVDhDy-ujv2i7_9DFhwCTF-OonQUPX2es9XcD56A3rxpskjBjxIBuSfHiv7GNuiBPlavPty6Sjk-kaK_Xp3vIHlOG2LxFOHiQ-unPcEU0ThKqxv1IrnWSqlNZS8DCqFJhMXoPoGEE99T8-zFCxRaFripySkpr2N1P9eNw&DisplayName=Grace+Li) because it was interesting and easy to understand.
+I downloaded a Netflix dataset from [kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows?phase=FinishSSORegistration&returnUrl=%2Fdatasets%2Fshivamb%2Fnetflix-shows%2Fversions%2F5%3Fresource%3Ddownload&SSORegistrationToken=CfDJ8CYusWan8yNKiDQcrMXOtQHX_djfNG_zLS6iF0VqGUQjSl8SVQHwEprCmuSuv9vzc_5pV93wrT8OK3JQo3tO5GOoL6JVNb681_4zhs526PsO9fbg90Ilst4ACttQXAbflL6vSph0m_Fac8xoeMz0urCmxVSCz9IMZ1Ke-yaF57TAnKCCvBDADrVDhDy-ujv2i7_9DFhwCTF-OonQUPX2es9XcD56A3rxpskjBjxIBuSfHiv7GNuiBPlavPty6Sjk-kaK_Xp3vIHlOG2LxFOHiQ-unPcEU0ThKqxv1IrnWSqlNZS8DCqFJhMXoPoGEE99T8-zFCxRaFripySkpr2N1P9eNw&DisplayName=Grace+Li) and refined the Excel dataset by organizing names and countries into separate columns and removing extraneous spaces and commas. 
 
-I refined the Excel dataset by organizing names and countries into separate columns and removing extraneous spaces and commas. Subsequently, I divided the data into distinct tables—such as cast, countries, description, and directors—linked by the show ID as the primary key. Refer to [Netflix Project
+Subsequently, I divided the data into distinct tables—such as cast, countries, description, and directors—linked by the show ID as the primary key. Refer to [Netflix Project
 /DataImport_MySQLWorkbench folder](https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/tree/main/Netflix%20Project/DataImport_MySQLWorkbench) to see resulting Excel sheets.
 
 Next, I imported this data onto MySQLWorkbench. I created new relational tables from the original tables by using UNION as shown in the examples below. Refer to [Netflix Project/Creating Relational Database_SQL Code folder](https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/tree/main/Netflix%20Project/Creating%20Relational%20Database_SQL%20Code) to see all SQL codes used to create these relational tables.
