@@ -79,10 +79,17 @@ https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-P
 
 The final component of this data visualization journey involves mastering Tableau. 
 
-I aimed to explore industries related to micromobility, utilizing Tableau to visualize KPIs, trends, and categorizations similar to those critical in my field. By analyzing public data from these sectors, I sought to demonstrate how I could design impactful dashboards for business stakeholders.
+I aimed to explore bike and EV industries because they are related to micromobility. I can utilize Tableau to visualize KPIs, trends, and categorizations similar to those critical in my field. 
 
 ### Steps:
-data.gov and kaggle
+
+For EV data, I used [this dataset](https://catalog.data.gov/dataset/electric-vehicle-population-data).
+
+For bike data, I used [this dataset](https://www.kaggle.com/datasets/prepinstaprime/europe-bike-store-sales).
+
+I then created a Tableau Public account and took a look at dashboards created by other users. 
+
+I aimed to create impactful visualizations tailored for business stakeholders, utilizing proven methods that resonate within the micromobility industry.
 
 ### Outcome:
 [My Tableau Public](https://public.tableau.com/app/profile/grace.li4022/vizzes)
@@ -91,10 +98,12 @@ data.gov and kaggle
 
 <img width="992" alt="Screen Shot 2024-05-12 at 9 57 34 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/13bdfcb4-0889-482f-82d5-ceae41a6d794">
 
-## Overall what you learned
+## Overall Lessons Learned
 
-As a Strategic Finance Manager integrating Tableau, PowerBI, SQL, and Excel into my data visualization toolkit, I've enhanced my analytical capabilities, enabling me to forecast more accurately and model financial scenarios with greater precision. 
+Much of my time spent on data extraction from SQL and loading it into various visualization tools involved troubleshooting software issues. This experience enhanced my understanding of common technical problems and how to address them. 
 
-I've also imporved my ability to communicate complex financial data through visualizations which will improve decision-making processes and make strategic insights accessible to stakeholders across the organization. 
+For instance, I learned that MySQL Workbench struggles with importing blank cells from Excel, prompting me to replace these cells with NULL values to ensure smooth data integration. 
+
+This knowledge will enable me to more effectively communicate with data and software engineering teams, helping to streamline the entire process from backend data extraction and refinement to frontend visualization and decision-making.
 
 Additionally, mastering these tools has given me the ability to increased operational efficiency through automation, reducing manual data handling and freeing up more time for strategic planning and analysis.
