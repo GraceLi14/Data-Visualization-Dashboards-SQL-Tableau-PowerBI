@@ -16,10 +16,10 @@ Given my familiarity with Microsoft tools, I recognized that learning Power BI w
 
 I downloaded a Netflix dataset from [kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows?phase=FinishSSORegistration&returnUrl=%2Fdatasets%2Fshivamb%2Fnetflix-shows%2Fversions%2F5%3Fresource%3Ddownload&SSORegistrationToken=CfDJ8CYusWan8yNKiDQcrMXOtQHX_djfNG_zLS6iF0VqGUQjSl8SVQHwEprCmuSuv9vzc_5pV93wrT8OK3JQo3tO5GOoL6JVNb681_4zhs526PsO9fbg90Ilst4ACttQXAbflL6vSph0m_Fac8xoeMz0urCmxVSCz9IMZ1Ke-yaF57TAnKCCvBDADrVDhDy-ujv2i7_9DFhwCTF-OonQUPX2es9XcD56A3rxpskjBjxIBuSfHiv7GNuiBPlavPty6Sjk-kaK_Xp3vIHlOG2LxFOHiQ-unPcEU0ThKqxv1IrnWSqlNZS8DCqFJhMXoPoGEE99T8-zFCxRaFripySkpr2N1P9eNw&DisplayName=Grace+Li) because it was interesting and easy to understand.
 
-I refined the Excel dataset by organizing names and countries into separate columns and removing extraneous spaces and commas. Subsequently, I divided the data into distinct tables—such as cast, countries, description, and directors—linked by the show ID as the primary key. Refer to Netflix Project
-/DataImport_MySQLWorkbench folder to see resulting Excel sheets.
+I refined the Excel dataset by organizing names and countries into separate columns and removing extraneous spaces and commas. Subsequently, I divided the data into distinct tables—such as cast, countries, description, and directors—linked by the show ID as the primary key. Refer to [Netflix Project
+/DataImport_MySQLWorkbench folder](https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/tree/main/Netflix%20Project/DataImport_MySQLWorkbench) to see resulting Excel sheets.
 
-Next, I imported this data onto MySQLWorkbench. I created new relational tables from the original tables by using UNION as shown in the examples below. Refer to Netflix Project/Creating Relational Database_SQL Code folder to see all SQL codes used to create these relational tables.
+Next, I imported this data onto MySQLWorkbench. I created new relational tables from the original tables by using UNION as shown in the examples below. Refer to [Netflix Project/Creating Relational Database_SQL Code folder](https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/tree/main/Netflix%20Project/Creating%20Relational%20Database_SQL%20Code) to see all SQL codes used to create these relational tables.
 
 Example using the cast table:
 
