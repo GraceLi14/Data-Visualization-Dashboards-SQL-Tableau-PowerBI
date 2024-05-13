@@ -39,7 +39,7 @@ https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-P
 
 
 
-# Project 2 - Classic Models Data - Mastering Data Integration Leveraging SQL, Excel, and Power BI for Enhanced Analysis and Presentation
+# Classic Models Data - Mastering Data Integration Leveraging SQL, Excel, and Power BI
 
 ### Motivation:
 
@@ -47,9 +47,11 @@ After gaining a foundational understanding of integrating Excel data into Power 
 
 ### Steps:
 
-The Udemy course offered access to a database featuring Classic Models with relational tables. It included a series of analytical questions, which I addressed by initially extracting the necessary data using MySQL Workbench, followed by conducting chart analyses in Excel. For a detailed overview of all the questions tackled and the corresponding Excel analyses, please follow this [link](https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/tree/main/Classic%20Models%20Project).
+I used an Udemy course that had a series of analytical questions and a database featuring Classic Models with relational tables. 
 
-#### Example:
+I tackled these questions by first extracting the necessary data using MySQL Workbench, then by conducting chart analyses in Excel. For a detailed overview of all the questions tackled and the corresponding Excel analyses, please follow this [link](https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/tree/main/Classic%20Models%20Project).
+
+#### Example Problem:
 
 Question:
 
@@ -65,13 +67,23 @@ Excel Analysis:
 <img width="1195" alt="Screen Shot 2024-05-12 at 1 27 08 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/64eb9fdb-01ba-4cc4-9af6-df78e936aadc">
 <img width="1070" alt="Screen Shot 2024-05-12 at 1 27 23 PM" src="https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/07d703f5-1057-4150-be95-a52411cb91ed">
 
-Similarly to the Netflix project, I then transformed the analyzed data into a dashboard on PowerBI.
+Similar to the Netflix project, I then transformed the analyzed data into a dashboard on PowerBI.
 
 ### Outcome:
 
-
-
 https://github.com/GraceLi14/Grace-s-Data-Visualization-Dashboards-SQL-Tableau-Power-BI/assets/168991262/ff81d08b-cb8c-4a82-9820-fbf713f3aa19
+
+# Exploring Ecomobility - Navigating Bike and EV Industries with Tableau Dashboards
+
+### Motivation:
+
+The final component of this data visualization journey involves mastering Tableau. I aimed to explore industries related to micromobility, utilizing Tableau to visualize KPIs, trends, and categorizations similar to those critical in my field. By analyzing public data from these sectors, I sought to demonstrate how I could design impactful dashboards for business stakeholders.
+
+### Steps:
+data.gov and kaggle
+
+### Outcome:
+[My Tableau Public](https://public.tableau.com/app/profile/grace.li4022/vizzes)
 
 
 
